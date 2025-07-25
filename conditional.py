@@ -8,28 +8,16 @@
  #   print("i will practice devops")
 
 
-num1=int(input("enter a first number: "))
-num2=int(input("enter a second number: "))
-
-choice = input("enter the operation:  (options +,-,*,/,%)")   
+# 
 
 
-
-if choice=="+":
-    sum_of_num = num1 + num2
-
-    print("addition",sum_of_num)
-elif choice=="-":
-    diff_of_num =num1 -num2
-    print("substraction",diff_of_num)
-
-elif choice=="*":
-    multi_of_num =num1 *num2
-
-    print("multiplication",multi_of_num)
-elif choice=="/":
-    divisio_of_num =num1 /num2
-
-    print("division",divisio_of_num)    
-else:
-    print("invalid choice")
+a=int(input("enter a number : "))
+b=int(input("enter the second number"))
+c=a+b
+print(c)
+if c>10 :
+    print("the given number is valid")
+elif c>=10:
+    print("the given number is valid ") 
+else :
+    print("the given number is invalid")       
