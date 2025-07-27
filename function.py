@@ -48,9 +48,41 @@
 # #call the created functionn
 # calculation(11,27)
     
-def avg(n1,n2,n3):
-    sum=n1+n2+n3
-    avg=sum/3
-    print(avg)
-avg(45,54.4,75)    
+# def avg(n1,n2,n3):
+#     sum=n1+n2+n3
+#     avg=sum/3
+#     print(avg)
+# avg(45,54.4,75)    
 
+
+
+
+# def num():
+#     print("hello world")
+# num()    
+
+
+# s=input("enter the number")
+# t=input("enter the number")5
+
+# def two(s,t):
+#  print(s,t)
+# if s>t:
+#  print("s is greater than t")
+# else:
+#  print("t is greater than s")
+
+#  two(18)
+
+
+
+# def calculation(s,t):
+#     if s>t:
+#         print("s is greater than t")
+#     elif s==t:
+#         print("the both are equal")
+#     else:
+#         print("t is greater")    
+
+# #call the created functionn
+# calculation(11,27)
