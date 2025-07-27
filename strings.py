@@ -4,7 +4,7 @@
 #     print(i)
 
 
-st="vedant"
-print(st)
-for i in st:
-    print(st.index(i),i)
+st="vedshree"
+
+print("st.capitalize():",st.capitalize())
+print(st.lower)
