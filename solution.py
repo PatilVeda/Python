@@ -187,13 +187,22 @@
 
 #Inheritence
 
-class A:
-    def show(self):
-        print("inside A")
-class B(A):
-    def demo(self):
-        print("Inside B")
+# class A:
+#     def show(self):
+#         print("inside A")
+# class B(A):
+#     def demo(self):
+#         print("Inside B")
         
-b=B()
-b.show()
-b.demo()            
+# b=B()
+# b.show()
+# b.demo()            
+
+
+#Polymorphism
+
+# def add(a,b):
+#     print(a+b)
+# add(10,29)
+# add(11.5,12.5)
+# add("ab","cd")    
