@@ -127,6 +127,12 @@
 
 
 
+      
+
+
+
+
+
 
 #Static method 
 #are method dont use self parameter
@@ -161,15 +167,33 @@
 
 
 #Abstration
-class Car:
-    def __init__(self):
-        self.acc = False
-        self.brk =False
-        self.clutch=  False
-    def start(self):
-        self.clutch =True 
-        self.acc =  True 
-        print("car started") 
+# class Car:
+#     def __init__(self):
+#         self.acc = False
+#         self.brk =False
+#         self.clutch=  False
+#     def start(self):
+#         self.clutch =True 
+#         self.acc =  True 
+#         print("car started") 
 
-Car1 = Car()
-Car1.start()        
+# Car1 = Car()
+# Car1.start()        
+
+
+
+
+
+
+#Inheritence
+
+class A:
+    def show(self):
+        print("inside A")
+class B(A):
+    def demo(self):
+        print("Inside B")
+        
+b=B()
+b.show()
+b.demo()            
