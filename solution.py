@@ -58,3 +58,49 @@
 #class & instance attribute
 
 
+# class Student:
+
+#     college_name = "ABC COLLEGE"
+#     name ="anonymous"   #class attribute
+
+#     def __init__(self,name,marks):
+#         self.name=name  #obj attr > class attr
+#         self.marks=marks
+        
+#         print("creating new student")
+ 
+# s1 = Student("karan",67)
+# print(s1.name,s1.marks)
+
+
+# s2 =Student("arjun",87)
+# print(s2.name,s2.marks)
+# print(Student.college_name)
+
+
+
+
+#Method 
+#class contain two thing data(attribute) and methods
+#method are function are belong to objects
+
+
+class Student:
+
+    college_name = "ABC COLLEGE"
+
+
+    def __init__(self,name,marks):
+        self.name=name  #obj attr > class attr
+        self.marks=marks
+        
+    def welcome(self):
+        print("welcome student",self.college_name)
+
+    def get_marks(self):
+        return self.marks
+ 
+s1 = Student("karan",67)
+s1.welcome()
+print(s1.get_marks())
+
